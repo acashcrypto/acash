@@ -121,7 +121,7 @@ COPY acash.conf /acash/data/acash.conf
 Then, build with `docker build -t my-acash .` and run.
 
 ### Windows
-Windows build is maintained in [acash-win project](https://github.com/acash-pod/acash-win).
+Windows build is maintained in [acash-win project](https://github.com/acashcrypto/acash-win).
 
 Security Warnings
 -----------------

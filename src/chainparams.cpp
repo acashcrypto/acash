@@ -135,6 +135,7 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
         // use name as: echo -n hostname | sha256sum
+        vSeeds.push_back(CDNSSeedData("167.172.15.74", "167.172.15.74"));
         vSeeds.push_back(CDNSSeedData("acashex.info/dnsseed", "dnsseed.acashex.info"));
        // vSeeds.push_back(CDNSSeedData("67f534b87f9a2412f845e39102f184e3a48798ed6e2a64d98b915aa12b625e9c.ACH", "seed.ach.life"));
 
@@ -171,12 +172,13 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            ( 0, uint256S("0x00053dfefe2ff74e59fb50126bacd8a3a0449fa6cd2e6f5213a70252f36d45ed")),
+            ( 0, uint256S("0x00053dfefe2ff74e59fb50126bacd8a3a0449fa6cd2e6f5213a70252f36d45ed"))
+            ( 1736, uint256S("0x0007be5409205000aeda99461283d2f310dcc9bc1be18ba5c495f49d0c4fe436")),
 
-            1562754479,     // * UNIX timestamp of last checkpoint block
-            0,         // * total number of transactions between genesis and last checkpoint
+            1586770827,     // * UNIX timestamp of last checkpoint block
+            1737,         // * total number of transactions between genesis and last checkpoint
                             //   (the tx=... number in the SetBestChain debug.log lines)
-            675  // * estimated number of transactions per day after checkpoint
+            6675  // * estimated number of transactions per day after checkpoint
                             //   total number of tx / (checkpoint block height / (24 * 24))
         };
 
