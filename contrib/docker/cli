@@ -1,0 +1,3 @@
+#!/bin/bash
+
+exec acash-cli --datadir=/acash/data "${@}"

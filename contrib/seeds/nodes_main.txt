@@ -1,0 +1,6 @@
+# List of fixed seed nodes for mainnet
+
+#206.189.181.172:2020
+
+# Onion nodes
+

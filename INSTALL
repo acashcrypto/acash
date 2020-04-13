@@ -1,0 +1,5 @@
+Building ACASH
+
+See the ACASH github wiki (https://github.com/ach/acash/wiki) for instructions on building acashd,
+the intended-for-services, no-graphical-interface, reference
+implementation of ACASH.
