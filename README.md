@@ -1,5 +1,3 @@
-![ACASH Logo](http://acashex.info/wp-content/uploads/2020/03/achchain.png)
-![ACASH Logo](http://acashex.info/wp-content/uploads/2020/02/acashcoin.png)
 
 =======
 # ACASH
