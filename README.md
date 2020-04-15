@@ -11,7 +11,7 @@ Install
 -----------------
 ### Linux
 
-### [Quick guide for beginners](https://github.com/acash/acash/wiki/Quick-guide-for-beginners)
+### [Quick guide for beginners](https://github.com/acashcrypto/acash/wiki/Quick-guide-for-beginners)
 
 Install required dependencies:
 ```{r, engine='bash'}
@@ -24,7 +24,7 @@ sudo apt-get install \
 Execute the build command:
 ```{r, engine='bash'}
 # Clone ACASH Repository
-git clone https://github.com/acash/acash
+git clone https://github.com/acashcrypto/acash
 # Build
 cd acash/
 ./zcutil/build.sh -j$(nproc)

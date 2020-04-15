@@ -312,7 +312,7 @@ def gen_release_notes(release, releasefrom):
 
 @phase('Updating debian changelog.')
 def update_debian_changelog(release):
-    os.environ['DEBEMAIL'] = 'acashcommunity@gmail.com'
+    os.environ['DEBEMAIL'] = 'admin@acashex.info'
     os.environ['DEBFULLNAME'] = 'The ACASH Community'
     sh_log(
         'debchange',

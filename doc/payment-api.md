@@ -111,7 +111,7 @@ z_listoperationids <br>| [state] | Return a list of operationids for all operati
 
 ## Asynchronous RPC call Error Codes
 
-ACASH error codes are defined in https://github.com/acash/acash/blob/master/src/rpcprotocol.h
+ACASH error codes are defined in https://github.com/acashcrypto/acash/blob/master/src/rpcprotocol.h
 
 ### z_sendmany error codes
 
