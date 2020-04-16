@@ -219,7 +219,7 @@ public:
             "t3R4Akw67pwPgkLnKUuaHzQEcKGxhpNBZPN",
             "t3PzgEFDMvJaDv4x5T1RRxYwCUymnWTB3fV"
         };
-        vCommunityFeeStartHeight = 1250;
+        vCommunityFeeStartHeight = 1685;
         vCommunityFeeLastHeight = 3500000;
         assert(vCommunityFeeAddress.size() <= GetLastCommunityFeeBlockHeight());
     }
